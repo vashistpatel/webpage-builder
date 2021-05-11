@@ -1,0 +1,33 @@
+/* Some styling for bottom navbar, including colour of icons and hover
+*/
+.bottom-nav{
+    position:fixed!important;
+    bottom: 0!important;
+    width:100%;
+    background-color:rgb(54,54,54);
+}
+
+.links{
+    color:white;
+
+}
+
+#yt:hover{
+    color:#e52d27;
+
+}
+
+#twit:hover{
+    color:#1DA1F2;
+
+}
+
+#FAQ:hover{
+    /* Needs to be changed to the website color */
+    color:white;
+
+}
+
+#faqNotif{
+    position:absolute!important;
+}

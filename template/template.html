@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="template.css"/>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+}
+
+#navBar{
+    /* position: fixed; */
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#companyName{
+    font-weight: bold;
+}
+img{
+    width:100%;
+}
+
+.footer{
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+
+    padding: 15px;
+
+    color: white;
+}
+
+.footer li{
+    list-style-type: none;
+}
+.footer p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+.footer a:link{
+    text-decoration: none;
+    color: white;
+}
+.footer a:visited{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color: aqua;
+}
+.footer a:active{
+    text-decoration: none;
+    color: white;
+}
+
+/* .header{
+    background: rgb(92, 177, 223);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.company_name, .tagline{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.tagline{
+    margin-top:10px;
+    font-weight: normal;
+} */
+
+.article {
+    margin: 1rem;
+    margin-right: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.article > .title {
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin-bottom: 5px;
+
+}
+.article > .body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 5;
+}
+</style>
+</head>
+<body>
+    <nav id="navBar" class="navbar is-black" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-burger burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item is-size-4" id="companyName" href="template.html">Company Name</a>
+                    <a class="navbar-item is-size-4" href=#>Page 1</a>
+                    <a class="navbar-item is-size-4" href=#>Page 2</a>
+                </div>
+            </div>
+    </nav>
+
+
+    <section>
+        <img class="mySlides" src="https://wallpapercave.com/wp/OjUVEar.jpg">
+    </section>
+
+    <!-- <div class="header">
+        <h1 class="company_name">Company Name</h1>
+        <p class="tagline">Company Tagline</p>
+    </div> -->
+
+    <section class="article left" id="first_article">
+        <div class="title">About Us</div>
+        <div class="body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p>Unde voluptates animi minima maiores dolorum quis doloremque molestiae, ipsum, officia, vitae enim ipsa illo quae doloribus excepturi tempore facilis illum a. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, numquam. Explicabo nihil fugiat autem quidem repellendus hic nostrum placeat, adipisci omnis accusantium culpa error rerum, vitae quos assumenda aliquam ratione.
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quam atque, officia velit inventore molestias odio laudantium incidunt nihil nobis quaerat dolore voluptate voluptatum sed id neque tempore facere explicabo.</p>
+        </div>
+    </section>
+    <section class="article right">
+        <div class="title">Mission Statement</div>
+        <div class="body">
+            <p>Dolor minima aliquam adipisci suscipit nostrum, facere autem vero alias, doloremque et odio culpa repellat similique eius omnis cupiditate non natus amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus magni adipisci eos architecto temporibus officia corporis itaque corrupti harum, tempore, distinctio hic sequi ea error minus dolorem cum, quo animi!</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum harum vero debitis reiciendis tenetur. Error nulla repellendus deserunt obcaecati, odio quae, ut perspiciatis iusto fugiat in, ab nesciunt itaque tenetur?</p>
+        </div>
+    </section>
+    <section class="article right">
+        <div class="title">Future Plans</div>
+        <div class="body">
+            <p>Dolor minima aliquam adipisci suscipit nostrum, facere autem vero alias, doloremque et odio culpa repellat similique eius omnis cupiditate non natus amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus magni adipisci eos architecto temporibus officia corporis itaque corrupti harum, tempore, distinctio hic sequi ea error minus dolorem cum, quo animi!</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum harum vero debitis reiciendis tenetur. Error nulla repellendus deserunt obcaecati, odio quae, ut perspiciatis iusto fugiat in, ab nesciunt itaque tenetur?</p>
+        </div>
+    </section>
+
+    <div class = "footer">
+        <ul>
+            <li><p>Email: <a href=#>companyName@gmail.com</a></p> </li>
+            <li><p>Phone: <a href=#>647 123 4567</a></p></li>
+            <li><p>Website: <a href="template.html">www.companyName.com</a></p></li>
+        </ul>
+        <!-- <p>Contact us Information</p>
+        <p>Add social media stuff here</p> -->
+        <!-- <div class="social">
+            <ul>
+              <li><p>Email: </p></li>
+              <li><p>Phone: </p></li>
+              <li><p>Instagram: </p></li>
+            </ul>
+        </div> -->
+    </div>
+
+
+
+
+
+</body>
+</html>

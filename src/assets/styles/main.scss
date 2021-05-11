@@ -1,0 +1,13 @@
+//https://headsigned.com/posts/importing-and-using-font-awesome-with-vue/
+//https://www.youtube.com/watch?v=9lcKFUzx5Ys
+//Links above taught how to import/download bulma & font awesome
+
+//importing bulma from npm package .json
+@import "~bulma/bulma";
+
+//importing font awesome icons from package.json 
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid"; 
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/brands";
